@@ -29,7 +29,7 @@ DyvixCommandMenu is an animated console that monitors application output and run
 - `overrides`
   - : `DyvixCommandMenuProps['overrides']`. An object of typed CSS Variables applied to the wrapper, allowing deep easy-customization of the component. Values set here take precedence over the `background` and `color` props. See [command menu overrides](/components/command-menu/overrides.md) for the full list.
 - `theme`
-  - : `'Singularity' | null`. Selects a theme. Supports `Singularity`. Omit this prop or pass `null` to use the default styles; no theme is selected by default.
+  - : `'Singularity' | 'Industrial' | 'Ember' | 'Frost' | 'Blade' | null`. Selects a theme. Supports `Singularity`, `Industrial`, `Ember`, `Frost`, and `Blade`. Omit this prop or pass `null` to use the default styles; no theme is selected by default.
 - `animation`
   - : `DyvixCommandMenuAnimation | null`. Controls the entrance and exit animation. Defaults to `fade`. Supports `fade`, `bubble`, `zoom`, `unfold`, `glitch`, `pulse`, `aurora`, `drop`, `flip`, `glide`, `drift`, `float`, `swing`, `slideRight`, `spiral`, and `bounce`. Use `null` to disable preset animation.
 - `className`
@@ -115,3 +115,7 @@ function CommandMenuExample() {
   );
 }
 ```
+
+## Try it
+
+<CommandMenuPlayground />

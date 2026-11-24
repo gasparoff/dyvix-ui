@@ -6,6 +6,7 @@ import ModalPlayground from './components/modal/ModalPlayground.vue';
 import SelectPlayground from './components/select/SelectPlayground.vue';
 import LabelPlayground from './components/label/LabelPlayground.vue';
 import ToastPlayground from './components/toast/ToastPlayground.vue';
+import CommandMenuPlayground from './components/command-menu/CommandMenuPlayground.vue';
 import './custom.css';
 
 export default {
@@ -18,5 +19,6 @@ export default {
     app.component('SelectPlayground', SelectPlayground);
     app.component('LabelPlayground', LabelPlayground);
     app.component('ToastPlayground', ToastPlayground);
+    app.component('CommandMenuPlayground', CommandMenuPlayground);
   }
 };
